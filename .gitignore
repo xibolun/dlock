@@ -1,3 +1,7 @@
+.idea
+target
+.DS_Store
+*tar.gz
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
@@ -8,10 +12,11 @@
 _obj
 _test
 bin
-pkg
+/pkg/
 .vscode
 .idea/
 .cache
+.envrc
 dist
 release
 
@@ -29,10 +34,10 @@ _testmain.go
 
 *.exe
 .DS_Store
+*.tgz
 
 # Front
 node_modules/
-idcshell-ui/
 
 
 # vim
@@ -40,3 +45,7 @@ idcshell-ui/
 
 # log
 logs
+
+# dir
+taget/
+

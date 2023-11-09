@@ -1,4 +1,4 @@
-module idcos.io/cloudbase/dlock
+module gitlab.qiniu.io/devops/dlock
 
 go 1.14
 

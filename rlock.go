@@ -28,8 +28,7 @@ func NewRLock(opts Options) (*rLock, error) {
 	if err := NewValidate().
 		SliceEmpty(opts.Cluster, "redis cluster").
 		// StringIsNull(opts.Password, "redis password").
-		ToError();
-		err != nil {
+		ToError(); err != nil {
 		return nil, err
 	}
 
